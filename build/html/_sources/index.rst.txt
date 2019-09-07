@@ -12,6 +12,9 @@ Welcome to haobo's doc's documentation!
 
    intro 
    doxygen 
+   PLAT_AM335x 
+   PLAT_I.MX6ULL 
+
     
 
 Indices and tables
