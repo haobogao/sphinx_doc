@@ -1,5 +1,5 @@
-#!bin/bash
-cd /root/sphinx_doc
+#!/bin/bash
 git pull
-make html 
-cp -r ./build/html/* /var/www/html
+make html
+rm /home/haobo/website/* -rf
+cp -r ./build/html/* /home/haobo/website/
