@@ -36,3 +36,5 @@ boot SD 卡 制作
 
 high-secure (HS) device and a general-purpose (GP) deviece. HS 设备不会允许没有经过签名
 认证的可执行镜像执行。 GP 设备 是 禁用secure 的，所以不需要镜像 进行签名认证。 
+
+
