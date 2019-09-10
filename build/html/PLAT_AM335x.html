@@ -86,7 +86,17 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">reStructuredText 语法</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doxygen.html">doxygen 快速入门</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">AM335x</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">AM335x</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#bring-up">bring up</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#boot-sd">boot SD 卡 制作</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">系统启动</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">设备类型</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="PLAT_I.MX6ULL.html">I.MX6ULL</a></li>
 </ul>
 
@@ -154,6 +164,30 @@
             
   <div class="section" id="am335x">
 <h1>AM335x<a class="headerlink" href="#am335x" title="永久链接至标题">¶</a></h1>
+<div class="section" id="bring-up">
+<h2>bring up<a class="headerlink" href="#bring-up" title="永久链接至标题">¶</a></h2>
+<div class="section" id="boot-sd">
+<h3>boot SD 卡 制作<a class="headerlink" href="#boot-sd" title="永久链接至标题">¶</a></h3>
+<p>在整个SDK 目录中 ， bin  文件夹下 提供了 create-sdcard.sh</p>
+</div>
+</div>
+<div class="section" id="id1">
+<h2>系统启动<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h2>
+<p>在这里记录一些 系统的 启动特性。 参考 SPRUH73P。</p>
+<p>这些过程在 ROM code 之后，分为两种启动类型：</p>
+<ul class="simple">
+<li>Memory Booting : 系统从 主要的 memory 中 开始执行code , 比如说，flash ,memory card ,一般</li>
+</ul>
+<p>都是这个情况。</p>
+<ul class="simple">
+<li>Peripheral Booting： 系统通过外设启动， 比如串口 和 usb 下载。 这个一般并不常用。</li>
+</ul>
+<div class="section" id="id2">
+<h3>设备类型<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h3>
+<p>high-secure (HS) device and a general-purpose (GP) deviece. HS 设备不会允许没有经过签名
+认证的可执行镜像执行。 GP 设备 是 禁用secure 的，所以不需要镜像 进行签名认证。</p>
+</div>
+</div>
 </div>
 
 
