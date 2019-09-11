@@ -16,6 +16,8 @@ Welcome to haobo's doc's documentation!
    PLAT_I.MX6ULL 
    storage 
    filesystem 
+   linux_drv 
+
 
     
 
