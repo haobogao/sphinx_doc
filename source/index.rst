@@ -14,6 +14,7 @@ Welcome to haobo's doc's documentation!
    doxygen 
    PLAT_AM335x 
    PLAT_I.MX6ULL 
+   linux_drv 
 
     
 
