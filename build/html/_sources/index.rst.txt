@@ -1,21 +1,18 @@
-.. haobo's doc documentation master file, created by
-   sphinx-quickstart on Fri Sep  6 17:29:50 2019.
+.. sphinx_demo documentation master file, created by
+   sphinx-quickstart on Sat Jan  2 00:35:31 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to haobo's doc's documentation!
+Welcome to sphinx_demo's documentation!
 =======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
-   intro 
-   doxygen 
-   PLAT_AM335x 
-   PLAT_I.MX6ULL 
+   chap/doc/index
 
-    
+
 
 Indices and tables
 ==================
